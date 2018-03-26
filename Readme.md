@@ -1,4 +1,4 @@
-# Intermediate Topics in iOS
+# Concurrency & Parallelism in iOS
 
 ## Topics
 - Concurrency
@@ -36,7 +36,7 @@ By the end of this class students will know:
 
 - [Introduction to Concurrency in iOS]()
   - Threads, Work/Tasks, Concurrency & Parallelism, Core(s), Queues, QoS
-- [Interview Practice Problem - Concurrency]
+- [Interview Practice Problem - Concurrency]()
 - [Challenges with Concurrency]()
   - Deadlocks, Race Conditions, Reader/Writers Problem, Thread Explosions, Priority Inversion
 - [(NS)Operations](Operations)
