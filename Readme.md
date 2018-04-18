@@ -40,6 +40,7 @@ By the end of this class students will know:
 - [Challenges with Concurrency](challenges-with-concurrency)
   - Deadlocks, Race Conditions, Reader/Writers Problem, Thread Explosions, Priority Inversion
 - [(NS)Operations](operations)
+- [Xcode Project Management - Schemes, Targets & Build Settings](xcode-project-management)
 - [Testing](Testing)
 - [Interview Practice Problem - Async Image Loading & Caching](async-image-and-caching)
 - [Interview Practice Problem - Networking & API's]()
