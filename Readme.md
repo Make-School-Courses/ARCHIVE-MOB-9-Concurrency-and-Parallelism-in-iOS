@@ -16,17 +16,21 @@
   - Thread explosion
   - Priority inversion
 - Interview challenges in iOS
+- Testing in iOS (XCTest, Quick & Nimble)
+- Xcode Project Management (Schemes, Targets, Build settings)
 
 
 ## Competencies
 
-By the end of this class students will know:
-- the difference between concurrency & parallelism
-- how to create serial and concurrent queues
-- how to create delayed tasks
-- how to identify deadlocks, race conditions and priority inversion in multi-threaded code
+By the end of this class students will:
+- know the difference between concurrency & parallelism
+- know how to create serial and concurrent queues
+- know how to create delayed tasks
+- know how to identify deadlocks, race conditions and priority inversion in multi-threaded code
 - practice common iOS interview projects & questions
 - leverage various concepts in Grand Central Dispatch to use in their projects
+- learn how to test code in iOS
+- learn how to use Xcode's project management tools to build better projects
 
 ## Projects
 
