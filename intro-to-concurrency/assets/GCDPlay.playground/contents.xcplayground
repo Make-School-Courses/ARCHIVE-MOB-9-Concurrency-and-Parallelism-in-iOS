@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='Sync Queue'/>
+        <page name='Async Queue'/>
+        <page name='AsyncUserInitiated'/>
+        <page name='AsyncUserInitiatedAndUtility'/>
+        <page name='AsyncBackgroundAndUtility'/>
+        <page name='Async&amp;Sync'/>
+    </pages>
+</playground>
