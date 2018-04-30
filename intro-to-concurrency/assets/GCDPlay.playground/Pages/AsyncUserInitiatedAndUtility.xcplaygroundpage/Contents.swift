@@ -12,7 +12,7 @@ queue1.async {
 }
 
 queue2.async {
-    for i in 0..<10 {
+    for i in 100..<110 {
         print("🐳 ", i)
     }
 }

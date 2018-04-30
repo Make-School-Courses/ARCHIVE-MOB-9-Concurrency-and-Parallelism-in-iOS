@@ -2,6 +2,7 @@
 
 import UIKit
 
+// Same (serial) queue of execution
 let queue = DispatchQueue(label: "com.makeschool.queue1", qos: .utility)
 
 queue.async {
