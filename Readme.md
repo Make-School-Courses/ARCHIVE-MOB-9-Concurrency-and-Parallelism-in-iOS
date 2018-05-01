@@ -39,7 +39,11 @@ By the end of this class students will:
 ## Course Schedule
 
 - [Introduction to Concurrency in iOS](intro-to-concurrency)
-  - Threads, Work/Tasks, Concurrency & Parallelism, Core(s), Queues, QoS
+  - Threads, Work/Tasks, Concurrency & Parallelism, Core(s)
+- [Concurrency & Parallelism](dispatch-queues)
+    - Dispatch Queues, Dispatch QoS
+- [Challenges with Concurrency](challenges-with-concurrency)
+    - Deadlocks, Priority Inversion, Race Conditions, Critical Section, Locking(mutexes, semaphores)
 - [Interview Practice Problem - Concurrency](interview-practice-problem-concurrency)
 - [Challenges with Concurrency](challenges-with-concurrency)
   - Deadlocks, Race Conditions, Reader/Writers Problem, Thread Explosions, Priority Inversion
