@@ -17,4 +17,4 @@ Slides:
 
 Grand Central Dispatch - Dispatch Queues & QOS:
 
-[Dispatch Queue - Playground(assets/GCDPlay.playground)
+[Dispatch Queue - Playground](assets/GCDPlay.playground)
