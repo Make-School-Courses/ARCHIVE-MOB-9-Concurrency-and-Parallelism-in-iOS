@@ -3,17 +3,20 @@
 import Foundation
 import UIKit
 
-let queue = DispatchQueue(label: "sample.concurrent", qos: .userInitiated, attributes: .concurrent, autoreleaseFrequency: .inherit, target: nil)
+let queue = DispatchQueue(
+    label: "sample.concurrent",
+    qos: .userInitiated,
+    attributes: .concurrent
+)
 
 queue.async {
-    print("I am \(Thread.current)")
+    print("I am \(Thread.current) an async thread")
     print(45)
 }
 
 queue.sync {
-    print("I am \(Thread.current)")
+    print("I am \(Thread.current) a sync thread")
     Thread.sleep(forTimeInterval: 10)
-    print(100)
 }
 
 print("I am on the main thread - \(Thread.current)")
