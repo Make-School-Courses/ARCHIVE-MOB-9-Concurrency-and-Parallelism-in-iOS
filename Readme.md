@@ -44,7 +44,7 @@ By the end of this class students will:
     - Dispatch Queues, Dispatch QoS
 - [Concurrency & Parallelism - Concurrency Challenges](challenges-with-concurrency)
     - Deadlocks, Priority Inversion, Race Conditions, Critical Section, Locking(mutexes, semaphores)
-- [Concurrency & Parallelism - ]()
+- [Concurrency & Parallelism - ](executing-work-gcd)
   - Readers-Writers Problem, DispatchWorkItem, DispatchGroups, Concurrent Loops, Delayed Task Execution
 - [Interview Practice Problem - Concurrency](interview-practice-problem-concurrency)
 - [Challenges with Concurrency](challenges-with-concurrency)
