@@ -14,7 +14,7 @@ queue.async {
     print(45)
 }
 
-queue.sync {
+queue.async {
     print("I am \(Thread.current) a sync thread")
     Thread.sleep(forTimeInterval: 10)
 }

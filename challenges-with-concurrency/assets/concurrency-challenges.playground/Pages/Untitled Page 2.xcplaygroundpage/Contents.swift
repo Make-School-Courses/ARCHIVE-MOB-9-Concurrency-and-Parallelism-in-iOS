@@ -18,6 +18,7 @@ swap(&x, &y)
 
 let thread2 = Thread {
     swap(&y, &x)
+    print(x, y)
 }
 
 thread2.start()
