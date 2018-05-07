@@ -5,4 +5,4 @@
 
 Slides:
 
-[Executing Work in GCD](executing-work-gcd.key)
+[Executing Work in GCD](assets/executing-work-gcd.key)
