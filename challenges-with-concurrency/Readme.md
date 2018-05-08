@@ -12,4 +12,4 @@
 
 Slides:
 
-[Challenges with Concurrency](concurrency-challenges.key)
+[Challenges with Concurrency](assets/concurrency-challenges.key)

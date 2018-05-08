@@ -44,11 +44,9 @@ By the end of this class students will:
     - Dispatch Queues, Dispatch QoS
 - [Concurrency & Parallelism - Concurrency Challenges](challenges-with-concurrency)
     - Deadlocks, Priority Inversion, Race Conditions, Critical Section, Locking(mutexes, semaphores)
-- [Concurrency & Parallelism - ](executing-work-gcd)
+- [Concurrency & Parallelism - Executing work with GCD](executing-work-gcd)
   - Readers-Writers Problem, DispatchWorkItem, DispatchGroups, Concurrent Loops, Delayed Task Execution
 - [Interview Practice Problem - Concurrency](interview-practice-problem-concurrency)
-- [Challenges with Concurrency](challenges-with-concurrency)
-  - Deadlocks, Race Conditions, Reader/Writers Problem, Thread Explosions, Priority Inversion
 - [(NS)Operations](operations)
 - [Xcode Project Management - Schemes, Targets & Build Settings](xcode-project-management)
 - [Testing](Testing)
