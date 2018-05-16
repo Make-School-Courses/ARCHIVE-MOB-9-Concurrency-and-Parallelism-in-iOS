@@ -5,7 +5,7 @@ PlaygroundPage.current.needsIndefiniteExecution = true
 
 // Queues
 let operationQueue = OperationQueue()
-operationQueue.qualityOfService = .background
+operationQueue.qualityOfService = .userInitiated
 
 // Equivalent of GCD main queue
 let mainOp = OperationQueue.main
@@ -67,6 +67,7 @@ class MyOperation: Operation {
         if !self.isCancelled {
             print("MyOp Started")
             Thread.sleep(forTimeInterval: 5)
+            print(Thread.current)
         }else {
             print("My Op Cancelled")
         }
@@ -81,7 +82,7 @@ myOp.completionBlock = {
 
 operationQueue.addOperation(myOp)
 
-myOp.cancel()
+//myOp.cancel()
 
 //: [Next Page] @(next)
 
