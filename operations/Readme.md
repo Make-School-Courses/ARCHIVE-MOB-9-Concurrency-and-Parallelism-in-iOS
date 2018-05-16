@@ -17,3 +17,8 @@ Slides for class:
 Operations Playground:
 
 [Operations Playground](assets/operations.playground)
+
+
+## Challenges
+
+[GCDAsyncImage](https://github.com/Product-College-Labs/GCDAsyncImage)

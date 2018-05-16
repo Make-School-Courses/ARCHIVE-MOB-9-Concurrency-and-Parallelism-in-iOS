@@ -5,6 +5,7 @@ PlaygroundPage.current.needsIndefiniteExecution = true
 
 // Queues
 let operationQueue = OperationQueue()
+operationQueue.qualityOfService = .background
 
 // Equivalent of GCD main queue
 let mainOp = OperationQueue.main
@@ -32,11 +33,13 @@ operationQueue.operationCount
 */
 
 let downloadQueue = OperationQueue()
+
 let downloadOperation = BlockOperation {
     // perform download here
     Thread.sleep(forTimeInterval: 2)
     print("downloading")
 }
+downloadOperation.queuePriority = .high
 
 downloadOperation.addExecutionBlock {
     Thread.sleep(forTimeInterval: 2)
@@ -60,13 +63,14 @@ downloadQueue.addOperations([downloadOperation, updateDBOperation], waitUntilFin
 class MyOperation: Operation {
     
     override func main() {
+        Thread.sleep(forTimeInterval: 3)
         if !self.isCancelled {
+            print("MyOp Started")
             Thread.sleep(forTimeInterval: 5)
         }else {
-            print("Cancelled")
+            print("My Op Cancelled")
         }
     }
-    
 }
 
 let myOp = MyOperation()
@@ -77,6 +81,7 @@ myOp.completionBlock = {
 
 operationQueue.addOperation(myOp)
 
+myOp.cancel()
 
 //: [Next Page] @(next)
 
