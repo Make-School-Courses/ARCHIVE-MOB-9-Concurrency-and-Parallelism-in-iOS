@@ -25,6 +25,8 @@ Each Xcode project is made up of a few components.
 ### Workspace
 This contains one or more related `projects`.
 
+![Multiple Projects](assets/xcworkspace01.png)
+
 ### Project
 Projects contain source code, resources files, etc.
 Each project can contain one or more targets.
@@ -68,7 +70,6 @@ Most app projects come with two build configurations and one build scheme. You g
 
 You can auto-create schemes for your targets by going to `Product > Scheme > Manage Schemes` and pressing "Autocreate Schemes Now"
 
-
 ## Activity
 
 Discuss use cases for using multiple schemes and targets.
@@ -78,3 +79,8 @@ Discuss use cases for using multiple schemes and targets.
 ## Challenges
 
 Create an iOS app with a Today Extension as an extra target.
+
+
+## Resources
+
+[Xcode Schemes & Build Settings Tutorial - Julia Alumni](https://hackernoon.com/a-cleaner-way-to-organize-your-ios-debug-development-and-release-distributions-6b5eb6a48356)

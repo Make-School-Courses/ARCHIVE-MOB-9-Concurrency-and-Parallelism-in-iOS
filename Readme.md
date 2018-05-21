@@ -49,6 +49,6 @@ By the end of this class students will:
 - [Interview Practice Problem - Concurrency](interview-practice-problem-concurrency)
 - [(NS)Operations](operations)
 - [Xcode Project Management - Schemes, Targets & Build Settings](xcode-project-management)
-- [Testing](Testing)
+- [Testing](intro-to-testing)
 - [Interview Practice Problem - Async Image Loading & Caching](async-image-and-caching)
 - [Interview Practice Problem - Networking & API's]()
