@@ -8,9 +8,8 @@ Slides:
 
 [Introduction to Testing](assets/intro-to-testing.key)
 
-
 ## Challenges
 
 Clone this repo and add tests:
 
-[Testing Sample Project](testing)
+[Testing Sample Project](https://github.com/Product-College-Labs/basic-testing.git)
