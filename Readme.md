@@ -1,4 +1,6 @@
-# Concurrency & Parallelism in iOS
+# ARCHIVE - Concurrency & Parallelism in iOS
+
+## NOTE: This repo is no longer maintained
 
 ## Topics
 - Concurrency
